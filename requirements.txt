@@ -1,4 +1,2 @@
 twitter
 unicodecsv
-random
-os.path
