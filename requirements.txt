@@ -1,5 +1,4 @@
 twitter
 unicodecsv
-csv
 random
 os.path
