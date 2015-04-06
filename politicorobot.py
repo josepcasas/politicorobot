@@ -3,7 +3,6 @@
 
 import twitter
 import unicodecsv
-import codecs
 import csv
 import random
 import os.path
@@ -118,7 +117,6 @@ def main(user):
 
 if __name__ == "__main__":
     main(user)
-
 
 
 
