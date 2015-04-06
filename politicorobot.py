@@ -12,10 +12,10 @@ user = 'marianorajoy'
 
 
 # define the private info
-consumer_key='iiNozghJ3ObQNZkzIouS9mMuO'
-consumer_secret='cTwo2SYeMj28BZcbPosdovcHCEguvbr0nvVUmuuUXe7N33Z9G9'
-access_token_key='3140733411-Rq1mJF8B1YsyreF2DzKf72NTi3GF8JIux3mv2Fu'
-access_token_secret='90pTHsNUVsoXisN7IgpgpTFOKDL9Me6nO0HPcbJrfcsWP'
+consumer_key='consumer_key'
+consumer_secret='consumer_secret'
+access_token_key='access_token_key'
+access_token_secret='access_token_secret'
 
 
 
