@@ -1,1 +1,1 @@
-worker: python polticorobot.py
+worker: python politicorobot.py
