@@ -111,8 +111,12 @@ def main(user):
 	data = cleanData(user)
 	dic = createDic(data)
 	sentence = createSentence(dic)
-	status = t.PostUpdate(sentence)
-	print sentence
+
+	if random.randint(1,8) == 8:
+		status = t.PostUpdate(sentence)
+		print "status updated, check twitter"
+	else:
+		print "no luck, try again"
 	
 
 if __name__ == "__main__":
