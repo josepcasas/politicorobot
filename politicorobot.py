@@ -17,9 +17,14 @@ consumer_secret='cTwo2SYeMj28BZcbPosdovcHCEguvbr0nvVUmuuUXe7N33Z9G9'
 access_token_key='3140733411-Rq1mJF8B1YsyreF2DzKf72NTi3GF8JIux3mv2Fu'
 access_token_secret='90pTHsNUVsoXisN7IgpgpTFOKDL9Me6nO0HPcbJrfcsWP'
 
-def auth(consumer_key, consumer_secret, access_token_key, access_token_secret):
-	return twitter.Api(consumer_key=consumer_key, consumer_secret=consumer_secret, access_token_key=access_token_key, access_token_secret=access_token_secret)
 
+
+def auth():
+	t =  twitter.Api(consumer_key=consumer_key, 
+						consumer_secret=consumer_secret, 
+						access_token_key=access_token_key, 
+						access_token_secret=access_token_secret)
+	return t
 
 def getTweets(user, t):
 	i = 0
@@ -104,7 +109,7 @@ def createSentence(dic):
 	return sentence
 
 def main(user):
-	t = auth(consumer_key, consumer_secret, access_token_key, access_token_secret)
+	t = auth()
 	filename = "data"+user+".csv"
 	if not os.path.isfile(filename):
 		getTweets(user, t)
