@@ -119,6 +119,9 @@ def main(user):
 
 	if random.randint(1,8) == 8:
 		status = t.PostUpdate(sentence)
+		print "update sucessful, check twitter"
+	else:
+		print "bad luck, try again next time"
 
 	
 
